@@ -37,12 +37,24 @@ body {
   overflow: hidden;
   width: 200px;
   margin: 0;
+  padding: 300px;
+}
+
+#right {
+  height: 1px;
+  float: right;
+  display: block;
+  min-width: 0;
+  overflow: hidden;
+  width: 200px;
+  margin: 300px;
   padding: 0;
 }
 
+
 #content {
   margin-top: 15px;
-  float: left;
+  float: right;
   width: 500px;
 }
 
