@@ -37,7 +37,7 @@ body {
   overflow: hidden;
   width: 200px;
   margin: 0;
-  padding: 300px;
+  padding: 200px;
 }
 
 #right {
@@ -47,7 +47,7 @@ body {
   min-width: 0;
   overflow: hidden;
   width: 200px;
-  margin: 300px;
+  margin: 200px;
   padding: 0;
 }
 
