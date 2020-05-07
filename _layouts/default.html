@@ -1,0 +1,24 @@
+<!doctype html>
+<html>
+<head>
+    {% include googleanalytics.html %}
+    <link rel="stylesheet" href="/assets/css/styles.css">
+    <meta charset="utf-8">
+    {% feed_meta %}
+    {% seo %}
+    <title>{{ page.title }}</title>
+</head>
+<body>
+<div id="menu">
+<span class="title">George Gao</span>
+<ul>
+    {% include navigation.html %}
+</ul>
+</div>
+<div id="right">&nbsp;</div>
+<div id="content">
+    {{ content }}
+</div>
+</div>
+</body>
+</html>

@@ -1,0 +1,14 @@
+- name: Home
+  link: /
+- name: About
+  link: about.html
+- name: App
+  link: "https://app.jlgao.net"
+- name: Blog
+  link: blog.html
+- name: CV
+  link: cv.html
+- name: github
+  link: https://github.com/jlgao2
+- name: goodreads
+  link: https://www.goodreads.com/user/show/94647804-george-gao
