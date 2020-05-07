@@ -48,7 +48,8 @@ body {
 
 #content {
   margin-top: 50px;
-  float: center;
+  margin-left: 300px;
+  float: left;
   width: 500px;
   line-height: 0.6cm;
 }
