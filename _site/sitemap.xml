@@ -5,6 +5,10 @@
 <lastmod>2020-05-07T00:00:00+10:00</lastmod>
 </url>
 <url>
+<loc>http://localhost:4000/2020/05/17/dreammachinereview.html</loc>
+<lastmod>2020-05-17T00:00:00+10:00</lastmod>
+</url>
+<url>
 <loc>http://localhost:4000/about.html</loc>
 </url>
 <url>
@@ -15,9 +19,5 @@
 </url>
 <url>
 <loc>http://localhost:4000/</loc>
-</url>
-<url>
-<loc>http://localhost:4000/about_oldd.html</loc>
-<lastmod>2020-05-07T15:37:11+10:00</lastmod>
 </url>
 </urlset>
