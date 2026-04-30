@@ -1,7 +1,22 @@
 <nav>
     {% for item in site.data.navigation %}
-      <a href="{{ item.link }}" {% if page.url == item.link %}style="color: red;"{% endif %}>
-        <li>{{ item.name }}</li>
-      </a>
+      {% if item.children %}
+        <details class="nav-group">
+          <summary>{{ item.name }} <span class="caret">▾</span></summary>
+          <div class="nav-children">
+            {% for child in item.children %}
+              <a href="{{ child.link }}"{% if page.url == child.link %} class="current"{% endif %}>
+                <li class="nav-child">
+                  {{ child.name }}{% if child.desc %} <span class="nav-child-desc">{{ child.desc }}</span>{% endif %}
+                </li>
+              </a>
+            {% endfor %}
+          </div>
+        </details>
+      {% else %}
+        <a href="{{ item.link }}" {% if page.url == item.link %}style="color: red;"{% endif %}>
+          <li>{{ item.name }}</li>
+        </a>
+      {% endif %}
     {% endfor %}
   </nav>

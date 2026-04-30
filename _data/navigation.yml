@@ -1,5 +1,13 @@
 - name: Home
   link: /
+- name: Portfolio
+  children:
+    - name: regen.farm
+      link: https://regen.farm
+      desc: regenerative farming guide
+    - name: Genome Pipeline
+      link: /personal-genome-pipeline/
+      desc: 23andMe → dashboard
 - name: About
   link: /about.html
 - name: App
