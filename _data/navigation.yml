@@ -3,7 +3,7 @@
 - name: Portfolio
   children:
     - name: regen.farm
-      link: https://regen.farm
+      link: /regen-farm/
       desc: regenerative farming guide
     - name: Genome Pipeline
       link: /personal-genome-pipeline/
