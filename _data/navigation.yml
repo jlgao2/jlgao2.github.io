@@ -8,6 +8,17 @@
     - name: Genome Pipeline
       link: /personal-genome-pipeline/
       desc: 23andMe → dashboard
+- name: Homelab
+  children:
+    - name: CRM
+      link: https://crm.jlgao.net
+      desc: Social Graph (login)
+    - name: Transition
+      link: https://transition.jlgao.net
+      desc: decision tool (login)
+    - name: Health
+      link: https://health.jlgao.net
+      desc: prefrontal-cortex (login)
 - name: About
   link: /about.html
 - name: App
