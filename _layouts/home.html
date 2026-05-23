@@ -1,0 +1,200 @@
+<!doctype html>
+<html lang="en">
+<head>
+    {% include googleanalytics.html %}
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    {% feed_meta %}
+    {% seo %}
+    <title>{{ page.title }}</title>
+    <style>
+        :root {
+            --bg: #fafaf7;
+            --fg: #1c1c1c;
+            --muted: #6a6a6a;
+            --rule: #e0ddd5;
+            --quote-bg: #f1ede4;
+            --accent: #5a5044;
+            --warm: #c97a4a;
+        }
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --bg: #14130f;
+                --fg: #e8e6e0;
+                --muted: #a09b8e;
+                --rule: #2a2825;
+                --quote-bg: #1d1b16;
+                --accent: #c8bea8;
+                --warm: #d99a6a;
+            }
+        }
+        * { box-sizing: border-box; }
+        html { background: var(--bg); }
+        body {
+            font-family: 'Iowan Old Style', 'Palatino Linotype', Palatino, Georgia, 'Times New Roman', serif;
+            max-width: 720px;
+            margin: 0 auto;
+            padding: 3.5rem 2rem 5rem;
+            background: var(--bg);
+            color: var(--fg);
+            line-height: 1.7;
+            font-size: 18px;
+            font-feature-settings: "kern", "liga", "onum";
+            -webkit-font-smoothing: antialiased;
+            -moz-osx-font-smoothing: grayscale;
+        }
+        @media (max-width: 600px) {
+            body { padding: 2rem 1.25rem 3.5rem; font-size: 17px; }
+        }
+
+        .crumb {
+            font-family: ui-monospace, 'SF Mono', 'Menlo', monospace;
+            font-size: 0.76rem;
+            color: var(--muted);
+            letter-spacing: 0.02em;
+            margin: 0 0 3rem;
+        }
+        .crumb span + span::before {
+            content: " · ";
+            color: var(--rule);
+            padding: 0 0.15em;
+        }
+        .crumb a { color: var(--muted); text-decoration: none; transition: color 0.12s ease; }
+        .crumb a:hover { color: var(--accent); }
+
+        h1.masthead {
+            font-size: 3rem;
+            line-height: 1.05;
+            margin: 0 0 1rem;
+            letter-spacing: -0.015em;
+            font-weight: 600;
+        }
+        @media (max-width: 600px) {
+            h1.masthead { font-size: 2.3rem; }
+        }
+        p.essence {
+            font-style: italic;
+            color: var(--muted);
+            font-size: 1.1rem;
+            margin: 0 0 3.5rem;
+            max-width: 30em;
+            text-wrap: balance;
+            line-height: 1.55;
+        }
+
+        h2.section {
+            font-family: ui-monospace, 'SF Mono', 'Menlo', monospace;
+            font-size: 0.76rem;
+            font-weight: 600;
+            text-transform: uppercase;
+            letter-spacing: 0.14em;
+            color: var(--muted);
+            margin: 2.8rem 0 0;
+            padding-bottom: 0.55rem;
+            border-bottom: 1px solid var(--rule);
+        }
+
+        ul.index {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+        }
+        ul.index li {
+            border-bottom: 1px solid var(--rule);
+        }
+        ul.index li:last-child {
+            border-bottom: none;
+        }
+        ul.index a {
+            display: block;
+            padding: 0.85rem 0.05rem;
+            color: var(--fg);
+            text-decoration: none;
+            transition: padding 0.16s ease, background 0.12s ease;
+            border-radius: 2px;
+        }
+        ul.index a:hover,
+        ul.index a:focus-visible {
+            padding-left: 0.55rem;
+            background: var(--quote-bg);
+            outline: none;
+        }
+        ul.index .name {
+            font-size: 1.05rem;
+            font-weight: 500;
+            position: relative;
+        }
+        ul.index .name::after {
+            content: " →";
+            color: var(--accent);
+            opacity: 0;
+            margin-left: 0.25em;
+            transition: opacity 0.18s ease, transform 0.18s ease;
+            display: inline-block;
+            transform: translateX(-4px);
+        }
+        ul.index a:hover .name::after,
+        ul.index a:focus-visible .name::after {
+            opacity: 1;
+            transform: translateX(0);
+        }
+        ul.index .desc {
+            display: inline;
+            font-family: ui-monospace, 'SF Mono', 'Menlo', monospace;
+            color: var(--muted);
+            font-size: 0.78rem;
+            letter-spacing: 0.01em;
+            margin-left: 0.6rem;
+        }
+        ul.index .badge {
+            display: inline-block;
+            font-family: ui-monospace, 'SF Mono', monospace;
+            font-size: 0.62rem;
+            text-transform: uppercase;
+            letter-spacing: 0.1em;
+            color: var(--warm);
+            border: 1px solid var(--rule);
+            border-radius: 3px;
+            padding: 0.04rem 0.35rem;
+            margin-left: 0.35rem;
+            vertical-align: 0.18em;
+            font-weight: 500;
+        }
+
+        footer.colophon {
+            margin-top: 4.5rem;
+            padding-top: 1.4rem;
+            border-top: 1px solid var(--rule);
+            font-family: ui-monospace, 'SF Mono', 'Menlo', monospace;
+            font-size: 0.72rem;
+            color: var(--muted);
+            letter-spacing: 0.02em;
+        }
+        footer.colophon span + span::before {
+            content: " · ";
+            color: var(--rule);
+        }
+        footer.colophon a { color: var(--muted); text-decoration: none; transition: color 0.12s ease; }
+        footer.colophon a:hover { color: var(--accent); }
+    </style>
+</head>
+<body>
+    <div class="crumb">
+        <span>jlgao.net</span>
+        <span>est. 2020</span>
+        <span><a href="/feed.xml">feed →</a></span>
+    </div>
+
+    <h1 class="masthead">George Gao</h1>
+    <p class="essence">Personal site — projects, writing, and a small homelab. An index of public work.</p>
+
+    {{ content }}
+
+    <footer class="colophon">
+        <span>jlgao.net</span>
+        <span>{{ site.time | date: '%Y' }}</span>
+        <span><a href="https://github.com/jlgao2">github</a></span>
+        <span><a href="/feed.xml">feed</a></span>
+    </footer>
+</body>
+</html>
