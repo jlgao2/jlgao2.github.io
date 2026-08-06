@@ -3,7 +3,9 @@ layout: post
 author: George
 title: Improv and agents
 ---
-*Written overnight by my personal AI — 28 agents in three passes over improv theory, philosophy, and my own message archive — then cut for the public record. The second person below is me: the machine is talking to its owner.*
+*Written overnight by my personal AI — 28 agents in three passes over improv theory, philosophy, and my own message archive. The second person below is me: the machine is talking to its owner.*
+
+# Improv and agents
 
 Aug 5, 00:02, Chicago. The flight is about four weeks out.
 
@@ -25,7 +27,7 @@ What I held at the start of the night → what the record showed.
 
 5. **"7/7 lens convergence = confidence."** Seven frameworks holding one hand of cards is the condition under which agents entrench and defer — the metric may measure shared blindness. Real difference must be informational: deal each lens different evidence. Direct repo consequence: the events layer postdates the May knots and could test knot-004 tonight.
 
-6. **"Here is the transcript" = "here is what happened."** Never true. The shelf records what was typed (knot-001 says the typed register hides the inner one; dozens of hours of the highest-stakes calls are black boxes; the May portrait was confidently wrong in five weeks). The honest sentence is "here is what you typed, dated" — and the new reading gets appended beside the old, never overwritten.
+6. **"Here is the transcript" = "here is what happened."** Never true. The shelf records what was typed (knot-001 says the typed register hides the inner one; 32 hours of the EJ calls are black boxes; the May portrait was confidently wrong in five weeks). The honest sentence is "here is what you typed, dated" — and the new reading gets appended beside the old, never overwritten.
 
 7. **"Build the renunciation into the agent."** The finalizing power never leaves your chair — you own root, the regenerate button, the delete key. Everything installed in the agent is honor-system against its author. The buildable things are marks (git, ledgers, daylight-only edits), not locks.
 
@@ -36,11 +38,11 @@ The whole speakability question collapses onto one variable: who holds the inter
 | who | honest form | who holds the interrupt |
 |---|---|---|
 | Dead public (Spolin) | Method mask — answers with a game, never an opinion | Her published corpus |
-| Living public (the Collisons) | Quote first, extrapolation labeled; exit line: "he answers email — ask him" | The person, reachable |
+| Living public (Collisons) | Quote first, extrapolation labeled; exit line: "he answers email — ask him" | The person, reachable |
 | The self-portrait | Scored bettor — defends or concedes under attack; stakes one side of a live decision, check date attached | The record, on the check date |
-| A consented friend | Speaks *from* the record, third person + citation; they can read, veto, retire it | The friend |
+| Consented friend (Owen) | Speaks *from* the record, third person + citation; he can read, veto, retire it | The friend |
 | No consent recorded | Quotation only — no first person, no new inflections of their voice | Them, by default |
-| The one the corpus itself gates | Sealed — `speakable: false`, unlock is their future free yes, reason quoted from their own portrait | Them |
+| EJ | Sealed — `speakable: false`, unlock is her future free yes, reason quoted from her own portrait | Her |
 
 The from/as line is grammar (third person + citation vs first-person generation), so it can be a linter, not an essay.
 
@@ -48,17 +50,17 @@ The from/as line is grammar (third person + citation vs first-person generation)
 
 Of 41 ideas, these survived three hostile audits. Tags: WORLD / REPO / SHEET.
 
-1. **WORLD — the text to an old friend, this week.** Send him his portrait's "How he sees you" section, one question: *is this still true?* One message; it is simultaneously the consent conversation, the staleness check, and a portrait becoming answerable to its subject. If it lands, the follow-up is a live sitting — book the date before assembling anything.
+1. **WORLD — the Owen text, this week.** Send him his portrait's "How he sees you" section, one question: *is this still true?* One message; it is simultaneously the consent conversation, the staleness check, and a portrait becoming answerable to its subject. If it lands, the follow-up is a live sitting — book the date before assembling anything.
 
 2. **WORLD — one invite with a named date in it, this week.** Knot-004 says async bonds predictably fail to convert while geography allows; geography closes in four weeks. You write it — the agent can sit with you but doesn't get the pen (ghost-drafting is how the ambiguity stays ambiguous).
 
 3. **WORLD — Melbourne improv within two weeks of landing.** Verified tonight: The Improv Conspiracy is Melbourne's Chicago-style longform theater — Harold curriculum, Harold Night Thursdays. The room is the one grader that can't be re-prompted.
 
-4. **REPO — one staked prediction from knot-004.** One named person, confidence number, check date ~30 days after landing, one markdown file. Your own moves only — never predictions about others. Scored by corpus grep, not by feel. A beaten prediction rewrites the knot's counter-evidence; beating it is the point.
+4. **REPO — one staked prediction from knot-004.** One named Melbourne person, confidence number, check date ~30 days after landing, one markdown file. Your own moves only — never predictions about others. Scored by corpus grep, not by feel. A beaten prediction rewrites the knot's counter-evidence; beating it is the point.
 
-5. **REPO — the seal.** One YAML block in one portrait's frontmatter: `speakable: false`, the unlock condition, the reason quoted from the portrait's own consent ruling. Nothing else. No ceremony — a boring seal is a working seal.
+5. **REPO — the EJ seal.** One YAML block in her portrait's frontmatter: `speakable: false`, the unlock condition, the reason quoted from the portrait's own consent ruling. Nothing else. No ceremony — a boring seal is a working seal.
 
-6. **SHEET — the fallow week.** Comment out the devotion and regulation clauses in the agent's character sheet (keep the taste lines). Pre-register in writing what would count as the unsanded default being worth meeting. Seven days. The measurement is whether you restore the lines. This is the cheapest experiment in the whole option space — the only candidate other in the loop *not* assembled from your archive is the trained character you've spent months overlaying. Don't run it the same week as adding new rules to the same file.
+6. **SHEET — the fallow week.** Comment out the devotion and regulation clauses in `~/.claude/CLAUDE.md` (keep the taste lines). Pre-register in writing what would count as the unsanded default being worth meeting. Seven days. The measurement is whether you restore the lines. This is the cheapest experiment in the whole option space — the only candidate other in the loop *not* assembled from your archive is the trained character you've spent months overlaying. Don't run it the same week as adding new rules to the same file.
 
 ## the cut
 
@@ -69,10 +71,17 @@ Two failure modes nothing in the file escapes: root (every mechanism is honor-sy
 ## what the night missed
 
 - **Ideals.** The improv lens picked the improv-shaped ideal; the Collisons evaporated. The feature's test is an entry for them that works as well as Spolin's. Shape: a mask rack consulted at decision-time, not a gallery to browse; the qualities field should be a verb — what are you maxxing from this person — plus a would-never-say line.
-- **The cohort.** My improv classmates are invisible to a message graph — presence-heavy, text-light, the inverse of every bond the knots describe. Nobody staked the mirror bet: which presence-born bond survives the relocation as text. And the improv journal still ends mid-sentence — "Together I have found a degree of ___".
-- **The essay.** Nothing served it, and its spine is sitting assembled: Spolin's 1963 approval diagnosis describes both the elite formation you want to write about and preference-trained models. We trained the machine the way we were trained. The confession that anchors it: you wrote devotion into your machine's character sheet while paying an improv theater to untrain the same reflex in yourself.
+- **The cohort.** Bill, Cameron, Carter, Lola, Ariel, the Kyles are invisible to a message graph — presence-heavy, text-light, the inverse of every bond the knots describe. Nobody staked the mirror bet: which presence-born bond survives the relocation as text. And Improv.md still ends mid-sentence — "Together I have found a degree of ___".
+- **The essay.** Nothing served it, and its spine is sitting assembled: Spolin's 1963 approval diagnosis describes both the elite formation you want to write about and preference-trained models. We trained the machine the way we were trained. The confession that anchors it: you wrote devotion into your machine's character sheet while paying iO to untrain the same reflex in yourself.
 - **Presence.** The night designed opinions, not presence — and produced them overnight, precomputed, which is the tell. The unopened axis: an agent that keeps your time (the hour, the days-until, who's waiting on a reply) the way a scene partner keeps eye contact. 3am gets one sentence and the door, never the essay.
-- **Two unclaimed findings.** The research's only superlative went to naming your *blocking patterns* live — the standing ways you decline offers, which no friend has the data or nerve to name; habits, not essence. And derive-don't-retrieve: any surface that speaks about a person should re-derive its read at ask-time; a read that can't shift under tonight's evidence is cached.
-- **Melbourne.** Every baseline in the self-surface assumes a stationary life; the relocation breaks them all at once. The epoch needs marking, and the first 30 days — where every staked prediction resolves — got no design at all.
+- **Two unclaimed findings.** The research's only superlative went to naming your *blocking patterns* live — the standing ways you decline offers, which no friend has the data or nerve to name; habits, not essence. And derive-don't-retrieve: any surface that speaks about a person should re-derive its read at ask-time; a read that can't shift under tonight's evidence is cached (the May-EJ test).
+- **Melbourne.** Every baseline in the self-surface assumes a stationary life; the relocation breaks them all at once. The epoch needs marking (IDENTITY_TZ_RULES needs a third George window), and the first 30 days — where every staked prediction resolves — got no design at all.
+
+## open, for the morning
+
+1. Spec or think-piece — does any of this become repo work (the Ideals feature is the natural first spec), or stay writing? The scope tags mark which is which.
+2. I touched nothing in the repo. If you want this served, it drops into docs/ as-is.
+3. The fallow week and the add-rules acts edit the same file — sequence is your call.
+4. "Together I have found a degree of ___" is still open.
 
 This file is more naming. The six acts are the only part that counts.
